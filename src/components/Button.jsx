@@ -1,5 +1,5 @@
-function Button() {
-  return <button>(Fix me in exercise #2)</button>;
+function Button(props) {
+  return <button>{props.children}</button>;
 }
 
 export default Button;

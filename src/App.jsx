@@ -16,9 +16,9 @@ function App() {
   };
   return (
     <>
-      <Header />
-      <ArticleList />
-      <Footer />
+      <Header username={data.username} email={data.email} />
+      <ArticleList articles={data.articles} />
+      <Footer contact={data.contactInfo.email} />
     </>
   );
 }
